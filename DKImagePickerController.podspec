@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Resource' do |resource|
-    resource.resource_bundle = { "DKImagePickerController" => "Sources/DKImagePickerController/Resource/Resources/*" }
+    resource.resources = "Sources/DKImagePickerController/Resource/Resources/*"
 
     resource.source_files = "Sources/DKImagePickerController/Resource/DKImagePickerControllerResource.swift"
   end
